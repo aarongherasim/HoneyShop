@@ -1,0 +1,53 @@
+body {
+    background-color: chocolate;
+    padding: 20px;
+    margin: 0;
+}
+
+h1, h2, p, ul, li {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+ul.header li {
+    display: inline;
+    list-style-type: none;
+    margin: 0;
+}
+
+ul.header {
+    background-color: black;
+    padding: 0px;
+}
+
+ul.header li a {
+    color: white;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: 20px;
+    display: inline-block;
+}
+
+.content {
+    background-color:wheat;
+    padding: 20px;
+}
+
+.content h2 {
+    padding: 0;
+    margin: 0;
+}
+
+.content li {
+    margin-bottom: 10px;
+}
+
+.email, phone {
+    color: blue;
+}
+
+
+.active {
+    background-color: red;
+  }
+
+
