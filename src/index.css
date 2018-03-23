@@ -1,5 +1,16 @@
+:root {
+    --color-blue: #0000FF;
+    --color-white: #FFF;
+    --color-black: #000;
+    --color-wheat: #f5deb3;
+    --color-red: #FF0000;
+    --color-darkgrey: #A9A9A9;
+    --color-gold: #FFD700;
+}
+
 body {
-    background-color: chocolate;
+    background-image: url("./images/honey.jpg");
+    background-size: cover;
     padding: 20px;
     margin: 0;
 }
@@ -15,12 +26,12 @@ ul.header li {
 }
 
 ul.header {
-    background-color: black;
+    background-color: var(--color-black);
     padding: 0px;
 }
 
 ul.header li a {
-    color: white;
+    color: var(--color-white);
     font-weight: lighter;
     text-decoration: none;
     padding: 20px;
@@ -28,7 +39,7 @@ ul.header li a {
 }
 
 .content {
-    background-color:wheat;
+    background-color: var(--color-wheat);
     padding: 20px;
 }
 
@@ -41,13 +52,13 @@ ul.header li a {
     margin-bottom: 10px;
 }
 
-.email, phone {
-    color: blue;
+.highlight-blue {
+    color: var(--color-blue);
 }
 
 
 .active {
-    background-color: red;
+    background-color: var(--color-gold);
   }
 
 

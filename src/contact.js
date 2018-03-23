@@ -1,13 +1,13 @@
-import React, {Component} from "react";
+import React from "react";
 
 class Contact extends React.Component {
     render() {
         return (
             <div>
                 <h2>Contact Details: </h2>
-                <p>Email address: <email className="email">aarongherasim@gmail.com</email></p>
-                <p>Phone number: <phone className="phone">1234567</phone></p> 
-                <p>For a search engine please press: <a href="http://google.com"> forums</a>
+                <p>Email address: <span className="highlight-blue">aarongherasim@gmail.com</span></p>
+                <p>Phone number: <span className="highlight-blue">1234567</span></p> 
+                <p>For a search engine please press: <a href="http://google.com"> google</a>
                 </p>
             </div>
         )
