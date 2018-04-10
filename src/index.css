@@ -9,7 +9,7 @@
 }
 
 body {
-    background-image: url("./images/honey.jpg");
+    background-image: url("");
     background-size: cover;
     padding: 20px;
     margin: 0;
@@ -50,12 +50,34 @@ ul.header li a {
 
 .content li {
     margin-bottom: 10px;
+    font-size: 150%;
+}
+
+.content ul {
+    margin-left: 30px;
+    color: var(--color-red);
+    font-weight: bold;
 }
 
 .highlight-blue {
     color: var(--color-blue);
 }
 
+.honey-group:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.shop-title {
+    float: left;
+    width: 95%;
+}
+
+.shopping-cart {
+    float: right;
+    padding: 20px;
+  }
 
 .active {
     background-color: var(--color-gold);
